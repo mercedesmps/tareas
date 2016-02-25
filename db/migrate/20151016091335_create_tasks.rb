@@ -4,7 +4,7 @@ class CreateTasks < ActiveRecord::Migration
       t.string :description
       t.boolean :status
 
-      t.timestamps null: false
+      t.timestamps
     end
   end
 end
